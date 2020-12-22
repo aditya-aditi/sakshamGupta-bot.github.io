@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us form/html, css and php</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="contactinfo">
+            <div>
+                <h2>Contact info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="images\location.jpg"></span>
+                        <span> greater noida west<br>
+                              Uttar-Pradesh</span>
+                    </li>
+                    <li>
+                        <span><img src="images\mail.png"></span>
+                        <span>myname@mail.com(for example)</span>
+                    </li>
+                    <li>
+                        <span><img src="images\call.png"></span>
+                        <span>000-000-0000</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form id="contactForm" method="post" action="contact-form-handler.php"
+            <h2>Send a Message</h2>
+            <div class="formBox">
+                <div class="inputBox w50">
+                    <input type="text" name="name" required>
+                    <span>First Name</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="text" name="" required>
+                    <span>Last Name</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="email" name="email" required>
+                    <span>Email Address</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="text" name="" required>
+                    <span>Mobile Number</span><br>
+                </div>
+                <div class="inputBox w100">
+                    <textarea name="message" required></textarea>
+                    <span>Write your message here...</span><br>
+                </div><br>
+                <div class="inputBox w100">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
